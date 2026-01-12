@@ -7,7 +7,7 @@ func main() {
 	// dynamic and can grow
 	// []type{...}
 
-	results := []string{"sangam", "john"}
+	results := []string{"Sush", "Sam"}
 	fmt.Println(results, results[0], results[len(results)-1])
 
 	results[1] = "priya"

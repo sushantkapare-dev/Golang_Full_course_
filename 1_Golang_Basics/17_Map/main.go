@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 	// map[keyType]valueType
 	ages := map[string]int{
-		"sangam": 65,
-		"john":   35,
+		"Sush": 65,
+		"Sai":  35,
 	}
 
 	fmt.Println(ages["sangam"], len(ages))
@@ -24,8 +24,8 @@ func main() {
 	fmt.Println(scores, scores["math"])
 
 	users := map[string]string{
-		"u1": "sangam",
-		"u2": "john",
+		"u1": "Sush",
+		"u2": "Sai",
 		"u3": "Rahul",
 	}
 
